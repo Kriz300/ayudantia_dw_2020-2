@@ -1,6 +1,14 @@
 html {
-    min-height: 100%;
+	min-height: 100%;
     position: relative;
+}
+
+body {
+    background-image: url("https://cdn.wallpaperhi.com/1920x1213/20190112/5c394eeb597a0.jpg");
+	color: white;
+	/*background-repeat: no-repeat;
+    background-color: black;
+	background-position: center;*/
 }
 
 header {
@@ -32,19 +40,23 @@ p {
     text-justify: auto;
 }
 
+mark {
+    background-color: blue;
+}
+
 footer {
-    clear: both;
-    left: 0;
-    position: relative; 
-    bottom: 0;
-    padding: 0.75%;
+	clear: both;
+	left: 0;
+	position: relative; 
+	bottom: 0;
+	padding: 0.75%;
 }
 
 footer h4 {
-    font-family: italic;
-    font-size: 100%;
-    font-weight: bold;
-    text-align: left;
+	font-family: italic;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: left;
 }
 
 .content {
@@ -64,4 +76,8 @@ footer h4 {
 
 .content h3 {
     padding-bottom: 15px;
+}
+
+nav {
+    background-color: red !important;
 }
