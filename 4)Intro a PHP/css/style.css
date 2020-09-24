@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+header {
+    padding-bottom: 55px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+a {
+    color: #00ff04;
+    text-decoration: none;
+}
+
+.content a:hover {
+    font-size: 30px;
+    color: peru;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    text-justify: auto;
+}
+
+footer {
+    clear: both;
+    left: 0;
+    position: relative; 
+    bottom: 0;
+    padding: 0.75%;
+}
+
+footer h4 {
+    font-family: italic;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.content {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#fila {
+    margin: 5%;
+}
+
+#fila img {
+    width: 200px;
+    height: 200px;
+}
+
+.content h3 {
+    padding-bottom: 15px;
+}
