@@ -1,7 +1,7 @@
 <?php
     try {
         require '../vendor/autoload.php';
-        $client = new MongoDB\Client('mongodb+srv://ayudante:SCBUn7rfNG8kse0U@cluster0.iuadt.mongodb.net/ayudantia?retryWrites=true&w=majority');
+        $client = new MongoDB\Client('Los datos para su server.');
     } catch (\Throwable $th) {
         alert("Cago BD :'c");
     }
