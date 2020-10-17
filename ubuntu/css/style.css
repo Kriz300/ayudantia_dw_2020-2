@@ -1,0 +1,125 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+h1{
+	padding-bottom: 3%;
+}
+
+p {
+	font-size: 140%;
+}
+
+body {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.container a{
+	text-decoration: none;
+}
+
+#home {
+	right: 0;
+	position: absolute;
+	top: 0;
+	text-align: justify;
+}
+
+h4 {
+	text-align: justify;
+}
+
+footer {
+	clear: both;
+	left: 0;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	padding: 0.75%;
+}
+
+
+
+footer h4 {
+	font-family: italic;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: left;
+}
+
+.owl-prev {
+	left: -30px;
+	position: absolute;
+	top: 30%;
+}
+
+.owl-next {
+	right: -30px;
+	position: absolute;
+	top: 30%;
+}
+
+.owl-prev span, .owl-next span {
+	font-size: 60px;
+	color: #787878;
+}
+
+.owl-theme .owl-naw [class*="owl-"]:hover {
+	background-color: transparent;
+}
+.card {
+	color: black;
+}
+
+.card-text {
+    font-size:19px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header {
+	padding-bottom: 55px;
+}
+
+.carousel {
+	background-color: black;
+	align-items: center;
+}
+
+.carousel-item img {
+	margin: 0 auto;
+	align-content: center;
+}
+
+#onclick {
+	background-color: rgba(0, 0, 0, 0);
+	color: blue;
+	border: none;
+}
+
+.dropdown-menu a:hover {
+	background-color: blue;
+}
+
+.avatar {
+	height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+#img {
+	height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 100%;
+    background-size: 100% auto;
+}
