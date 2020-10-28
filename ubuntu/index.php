@@ -10,7 +10,7 @@
         <script src="https://kit.fontawesome.com/216ca488f9.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body onload="refresh()">
+    <body onload="refresh(<?php echo $_SESSION['wallet'];?>)">
         <?php
             include_once("mongo.php");
             include_once("header.php");

@@ -123,3 +123,12 @@ header {
     border-radius: 100%;
     background-size: 100% auto;
 }
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#display-div {
+	padding: 5%;
+}

@@ -26,6 +26,14 @@ const refresh = (wallet) => {
     newAtag.href = '#';
     List.appendChild(newAtag);
 
+    //Nuevo
+    newAtag = document.createElement("a");
+    newContent= document.createTextNode("Historial");
+    newAtag.appendChild(newContent);
+    newAtag.className = "dropdown-item text-white";
+    newAtag.href = 'historial.php';
+    List.appendChild(newAtag);
+
     
     newAtag = document.createElement("a");
     newContent= document.createTextNode("Logout");
