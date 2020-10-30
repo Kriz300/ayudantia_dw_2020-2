@@ -11,3 +11,7 @@ _Este repo guarda los archivos mostrados en la ayudantia._
 ## Autor ✒️
 
 * **Christian Muñoz I.** [Kriz](https://github.com/Kriz300)
+
+## Videos Utiles
+
+* [**WSL**](https://youtu.be/3_AwicDwrAk)
